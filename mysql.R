@@ -1,0 +1,6 @@
+select * from hdfregulatory where diseasename = 'Breast Cancer' or diseasename2 = 'Breast Cancer' or influencedfunction = 'Breast Cancer' or regulator = 'Breast Cancer' or target = 'Breast Cancer' or regulatorensembleid = 'Breast Cancer' or targetensembleid = 'Breast Cancer' or regulatorentrezid = 'Breast Cancer' or targetentrezid = 'Breast Cancer'
+select * from hdfregulatory where influencedfunction = 'Breast Cancer' or regulator = 'Breast Cancer' or target = 'Breast Cancer' or regulatorensembleid = 'Breast Cancer' or targetensembleid = 'Breast Cancer' or regulatorentrezid = 'Breast Cancer' or targetentrezid = 'Breast Cancer'
+select * from hdfregulatory where regulator = 'Breast Cancer' or target = 'Breast Cancer' or regulatorensembleid = 'Breast Cancer' or targetensembleid = 'Breast Cancer' or regulatorentrezid = 'Breast Cancer' or targetentrezid = 'Breast Cancer'
+select * from hdfregulatory where regulator = 'Breast Cancer' or target = 'Breast Cancer' or regulatorensembleid = 'Breast Cancer' or targetensembleid = 'Breast Cancer' or regulatorentrezid = 'Breast Cancer';
+select * from hdfregulatory where regulatorentrezid = 'Breast Cancer';
+select * from hdfregulatory where regulatorentrezid = 'HOTAIR';
